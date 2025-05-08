@@ -7,20 +7,20 @@ Creational design patterns focus on **how objects are created**. Instead of inst
 
 ### **Abstract Factory**
 
-Provides an interface for creating families of related or dependent objects without specifying their concrete classes. Useful when the system needs to be independent of how its objects are created.
+**Provides an interface for creating families of related or dependent objects without specifying their concrete classes.** Useful when the **system needs to be independent** of how its objects are created.
 
 ### **Builder**
 
-Separates the construction of a complex object from its representation, allowing the same construction process to create different representations. Ideal when objects require numerous configuration steps.
+**Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.** Ideal when objects **require numerous configuration steps**.
 
 ### **Factory**
 
-Defines an interface for creating an object but allows subclasses or methods to alter the type of object that will be created. This promotes loose coupling by eliminating the need to bind application-specific classes into your code.
+Defines an **interface for creating an object but allows subclasses or methods to alter the type of object that will be created**. This promotes loose coupling by eliminating the need to bind application-specific classes into your code.
 
 ### **Prototype**
 
-Creates new objects by copying an existing object, known as the prototype. This is particularly useful when the cost of creating a new instance is expensive or complex.
+**Creates new objects by copying an existing object, known as the prototype**. This is particularly **useful when the cost of creating a new instance is expensive or complex**.
 
 ### **Singleton**
 
-Ensures that a class has only one instance and provides a global point of access to it. Commonly used for managing shared resources like configuration settings or a logging service.
+Ensures that **a class has only one instance and provides a global point of access to it**. Commonly **used for managing shared resources like configuration settings or a logging service**.
