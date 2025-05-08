@@ -1,5 +1,3 @@
-
-#include <algorithm>
 #include <memory>
 #include <string_view>
 #include <utility>
@@ -21,9 +19,7 @@ struct Product : OrderItem {
     , m_price{ price }
   {}
 
-  double getPrice() const override {
-    return m_price;
-  }
+  double getPrice() const override { return m_price; }
 };
 
 struct Box : OrderItem {
@@ -33,9 +29,7 @@ struct Box : OrderItem {
   
   Box(double cost) : packagingCost(cost) {}
   
-  void add(std::unique_ptr<OrderItem> item) {
-    items.push_back(std::move(item));
-  }
+  void add(std::unique_ptr<OrderItem> item) { items.push_back(std::move(item)); }
 
   double getPrice() const override {
     double sum = packagingCost;

@@ -25,6 +25,7 @@ class Shape {
     int m_sides{};
     std::string_view m_name{};
     Color& m_color; 
+  
   public:
     Shape(int height, int width, int sides, std::string_view name, Color& color)
       : m_height{ height }
@@ -46,7 +47,6 @@ class Shape {
 
 class Circle : public Shape {
   public:
-
     Circle(int size, Color& c) 
       : Shape(size, size, 0, "Circle", c)
       {}
