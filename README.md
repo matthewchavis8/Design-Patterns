@@ -6,7 +6,7 @@ A design pattern is a reusable solution to a common problem in software design. 
 
 <details>
   <summary><strong>Creational</strong></summary>
-  - Abstract Factory
+  - Abstract Factory <br/>
   - Builder
   - Factory
   - Prototype
